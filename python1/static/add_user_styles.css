@@ -1,0 +1,79 @@
+/* add_user_styles.css */
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style untuk judul h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style untuk pesan error */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style untuk pesan error dengan warna merah */
+p.error {
+    color: red;
+}
+
+/* Style untuk pesan success dengan warna hijau */
+p.success {
+    color: green;
+}
+
+/* Style untuk form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk input field */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style untuk tombol submit */
+input[type="submit"] {
+    width: 100%; /* Agar tombol memenuhi lebar form */
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4caf50;
+}
+
+/* Style untuk link kembali ke dashboard */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #4caf50;
+}
